@@ -3,9 +3,12 @@
   --background-color: #2e2f42;
   --background-img-color: #e7e9fc;
   --text-fill-color-slate: #434455;
+  --logo-fill-color: #4d5ae5;
 }
 .body {
-  background-color: #e5e5e5;
+  font-family: 'Raleway', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -19,19 +22,19 @@ button {
 }
 
 .logo-fill {
-  color: #4d5ae5;
+  color: var(--text-fill-color);
 }
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-fill-color);
+  color: var(--logo-fill-color);
 }
 .link-nav {
   font-family: 'Roboto';
@@ -48,7 +51,7 @@ button {
 }
 .link-adres {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -56,10 +59,10 @@ button {
   color: var(--text-fill-color-slate);
 }
 .link-adres:hover,
-.link-focus:focus {
+.link-adres:focus {
   color: #404bbf;
 }
-h1 {
+.name-of-page {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -122,20 +125,20 @@ h1 {
   text-transform: capitalize;
   color: var(--text-fill-color);
 }
-footer {
+.decorate-footer {
   background-color: var(--background-color);
 }
 .logo-white {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--logo-fill-color);
 }
 .section-two {
   background-color: #f4f4fd;
@@ -174,4 +177,10 @@ footer {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.phone-and-mail {
+  font-style: normal;
+}
+.logo-fill-white {
+  color: #f4f4fd;
 }
